@@ -1,0 +1,36 @@
+.mainFigureDiv {
+  display: flex;
+  margin-left: 350px;
+}
+
+.figure {
+  min-width: 80px;
+  min-height: 80px;
+  position: relative;
+}
+
+.figure > .number {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.figure > p {
+  position: absolute;
+  margin-top: 0;
+}
+
+.mainFigureDiv > .figure > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.black {
+  background-color: #c57b41;
+}
+
+.white {
+  background-color: #fbdca2;
+}
